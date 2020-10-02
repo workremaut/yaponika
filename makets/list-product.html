@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+
+	<title>Главная</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- 	
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png"> 
+	-->
+
+	<meta name="theme-color" content="#000">
+
+	<link rel="stylesheet" href="libs/normalize_css/normalize.css">
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.default.css">
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/build.css">
+
+</head>
+
+<body class="list-product">
+
+	<div class="site">
+		
+		<header>
+			<div class="top-line">
+				<div class="shell">
+					<div class="top-line__content">
+						<div class="burger">меню</div>
+						<div class="logo">
+							<a href="/">
+								<img src="img/logo-m.jpg" width="43" alt="">
+							</a>
+						</div>
+						<div class="city">
+							<div class="city-label">Ваш город:</div>
+							<div class="city-select">
+								<p>Ишимбай</p>
+								<div class="city-select__list">
+									<ul>
+										<li><a href="#">Уфа</a></li>
+										<li><a href="#">Стерлитамак</a></li>
+										<li><a href="#">Салават</a></li>
+										<li><a href="#">Мелеуз</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<nav class="nav-top">
+							<ul>
+								<li><a href="#">О нас</a></li>        
+								<li><a href="#">Доставка и оплата</a></li>        
+								<li><a href="#">Акции</a></li>        
+								<li><a href="#">Вакансии</a></li>        
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</nav>
+						<div class="soc">
+							<ul>
+								<li><a class="instagram" href="#"></a></li>
+								<li><a class="vk" href="#"></a></li>
+							</ul>
+						</div>
+						<div class="top-line__btn">
+							<a href="#" class="link-call">Заказать звонок</a>
+							<div class="shop-card">
+								<a href="#">
+									<p>Корзина пуста</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="top-line__bottom">
+				<div class="shell">
+					<div class="content-header">
+						<div class="content-header__left">
+							
+							<div class="logo">
+								<a href="/">
+									<img src="img/logo.jpg" width="128" alt="">
+								</a>
+							</div>
+							<div class="text-logo">
+								<div class="city">
+									<div class="city-select">
+										<p>Ишимбай</p>
+										<div class="city-select__list">
+											<ul>
+												<li><a href="#">Уфа</a></li>
+												<li><a href="#">Стерлитамак</a></li>
+												<li><a href="#">Салават</a></li>
+												<li><a href="#">Мелеуз</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<a href="tel:+7(927)358-35-98">+7 (927) 358-35-98</a>
+								<h2>Пицца</h2>
+								<p>Ежедневно с <span>11:00</span> до <span>23:00</span> <br>Ишимбай, Молодёжная 4</p>
+							</div>
+						</div>
+						<div class="content-header__right">
+							<nav class="main-nav">
+								<ul>
+									<li><a href="#">СЕТЫ</a></li>          
+									<li><a class="active" href="#">ПИЦЦА</a></li>          
+									<li><a href="#">РОЛЛЫ</a></li>          
+									<li><a href="#">ЗАКУСКИ</a></li>          
+									<li><a href="#">ДЕСЕРТЫ</a></li>          
+									<li><a href="#">ДЕТЯМ</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</header>
+
+		
+
+			<div class="block-popular">
+				<div class="shell">
+					<h2 class="title-icon title-color-text">
+						<img src="img/title-icon/smile.png" alt="smile">
+						<span>Популярное в Ишимбае:</span>
+					</h2>
+					<div class="breadcrumbs breadcrumbs-accent">
+						<ul>
+							<li><a href="#">Доставка еды в Ишимбае</a></li>
+							<li><a href="#">Пицца</a></li>
+						</ul>
+					</div>
+					<div class="button-group filter-button-group">
+					  <button class="active" data-filter="*">все</button>
+					  <button data-filter=".big-company">Для больших компаний</button>
+					  <button data-filter=".ostray">Острая</button>
+					  <button data-filter=".no-meat">Без мяса</button>
+					  <button data-filter=".kids">Подойдет детям</button>
+					</div>
+
+
+
+					<div class="content-popular grid-filter">
+						<div class="grid-filter__item content-popular__col big-company">
+							<div class="content-popular__item">
+								<div style="background-image: url(img/popular/1.png);" class="content-popular__img"></div>
+								<div class="content-popular__text">
+									<span>пицца</span>
+									<h3>«Мясная»</h3>
+									<div class="price-popular">
+										<b>30 см</b>
+										<span>610 гр</span>
+									</div>
+									<p>Бекон, маринованные огурцы, сервелат, сыр Моцарелла, сыр Чеддер, соус "Маджорио", соус «Барбекю», соус Томатный</p>
+									<div class="content-popular__bottom">
+										<a href="#" class="btn border-orange btn-small">В корзину</a>
+										<b>.-360₽</b>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-filter__item content-popular__col kids">
+							<div class="content-popular__item">
+								<div style="background-image: url(img/popular/3.png);" class="content-popular__img"></div>
+								<div class="content-popular__text">
+									<span>пицца</span>
+									<h3>«Мясная»</h3>
+									<div class="price-popular">
+										<b>24 см</b>
+										<span>610гр</span>
+									</div>
+									<p>Бекон, маринованные огурцы, сервелат, сыр Моцарелла, сыр Чеддер, соус "Маджорио", соус «Барбекю», соус Томатный</p>
+									<div class="content-popular__bottom">
+										<a href="#" class="btn border-orange btn-small">В корзину</a>
+										<b>.-649₽</b>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-filter__item content-popular__col ostray">
+							<div class="content-popular__item">
+								<div style="background-image: url(img/popular/3.png);" class="content-popular__img"></div>
+								<div class="content-popular__text">
+									<span>пицца</span>
+									<h3>«Венеция»</h3>
+									<div class="price-popular">
+										<b>30 см</b>
+										<span>880гр</span>
+									</div>
+									<p>Куриное филе, сыр Моцарелла, соус "Маджорио", соус Томатный, сладкий перец</p>
+									<div class="content-popular__bottom">
+										<a href="#" class="btn border-orange btn-small">В корзину</a>
+										<b>.-340₽</b>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-filter__item content-popular__col no-meat">
+							<div class="content-popular__item">
+								<div style="background-image: url(img/popular/1.png);" class="content-popular__img"></div>
+								<div class="content-popular__text">
+									<span>пицца</span>
+									<h3>«Мясная»</h3>
+									<div class="price-popular">
+										<b>30 см</b>
+										<span>610 гр</span>
+									</div>
+									<p>Бекон, маринованные огурцы, сервелат, сыр Моцарелла, сыр Чеддер, соус "Маджорио", соус «Барбекю», соус Томатный</p>
+									<div class="content-popular__bottom">
+										<a href="#" class="btn border-orange btn-small">В корзину</a>
+										<b>.-360₽</b>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-filter__item content-popular__col kids">
+							<div class="content-popular__item">
+								<div style="background-image: url(img/popular/1.png);" class="content-popular__img"></div>
+								<div class="content-popular__text">
+									<span>пицца</span>
+									<h3>«Мясная»</h3>
+									<div class="price-popular">
+										<b>30 см</b>
+										<span>610 гр</span>
+									</div>
+									<p>Бекон, маринованные огурцы, сервелат, сыр Моцарелла, сыр Чеддер, соус "Маджорио", соус «Барбекю», соус Томатный</p>
+									<div class="content-popular__bottom">
+										<a href="#" class="btn border-orange btn-small">В корзину</a>
+										<b>.-360₽</b>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-filter__item content-popular__col kids">
+							<div class="content-popular__item">
+								<div style="background-image: url(img/popular/3.png);" class="content-popular__img"></div>
+								<div class="content-popular__text">
+									<span>пицца</span>
+									<h3>«Мясная»</h3>
+									<div class="price-popular">
+										<b>24 см</b>
+										<span>610гр</span>
+									</div>
+									<p>Бекон, маринованные огурцы, сервелат, сыр Моцарелла, сыр Чеддер, соус "Маджорио", соус «Барбекю», соус Томатный</p>
+									<div class="content-popular__bottom">
+										<a href="#" class="btn border-orange btn-small">В корзину</a>
+										<b>.-649₽</b>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-filter__item content-popular__col ostray">
+							<div class="content-popular__item">
+								<div style="background-image: url(img/popular/3.png);" class="content-popular__img"></div>
+								<div class="content-popular__text">
+									<span>пицца</span>
+									<h3>«Венеция»</h3>
+									<div class="price-popular">
+										<b>30 см</b>
+										<span>880гр</span>
+									</div>
+									<p>Куриное филе, сыр Моцарелла, соус "Маджорио", соус Томатный, сладкий перец</p>
+									<div class="content-popular__bottom">
+										<a href="#" class="btn border-orange btn-small">В корзину</a>
+										<b>.-340₽</b>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="grid-filter__item content-popular__col no-meat">
+							<div class="content-popular__item">
+								<div style="background-image: url(img/popular/1.png);" class="content-popular__img"></div>
+								<div class="content-popular__text">
+									<span>пицца</span>
+									<h3>«Мясная»</h3>
+									<div class="price-popular">
+										<b>30 см</b>
+										<span>610 гр</span>
+									</div>
+									<p>Бекон, маринованные огурцы, сервелат, сыр Моцарелла, сыр Чеддер, соус "Маджорио", соус «Барбекю», соус Томатный</p>
+									<div class="content-popular__bottom">
+										<a href="#" class="btn border-orange btn-small">В корзину</a>
+										<b>.-360₽</b>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<h2 class="title-icon title-color-text">
+						<img src="img/title-icon/smile.png" alt="">
+						<span>С этим берут:</span>
+					</h2>
+					<div class="content-popular">
+						<div class="content-popular__col">
+							<div class="content-popular__item">
+								<div style="background-image: url(img/popular/9.png);" class="content-popular__img"></div>
+								<div class="content-popular__text">
+									<span>добавки</span>
+									<h3>«Сырный»</h3>
+									<div class="price-popular">
+										<b>50 гр</b>
+									</div>
+									<p>Основа для соуса, чесночный соус, майонез, паприка</p>
+									<div class="content-popular__bottom">
+										<a href="#" class="btn border-orange btn-small">В корзину</a>
+										<b>.-50₽</b>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-popular__col">
+							<div class="content-popular__item">
+								<div style="background-image: url(img/popular/10.png);" class="content-popular__img"></div>
+								<div class="content-popular__text">
+									<span>добавки</span>
+									<h3>«Бешамель»</h3>
+									<div class="price-popular">
+										<b>50 гр</b>
+									</div>
+									<p>Основа для соуса, чесночный соус, майонез, паприка, сливки, мендальные орехи, сливочный сыр, соль</p>
+									<div class="content-popular__bottom">
+										<a href="#" class="btn border-orange btn-small">В корзину</a>
+										<b>.-50₽</b>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-popular__col">
+							<div class="content-popular__item">
+								<div style="background-image: url(img/popular/11.png);" class="content-popular__img"></div>
+								<div class="content-popular__text">
+									<span>добавки</span>
+									<h3>«Томатный»</h3>
+									<div class="price-popular">
+										<b>50 гр</b>
+									</div>
+									<p>Основа для соуса, чесночный соус, майонез, паприка, сливки, мендальные орехи, сливочный сыр, соль</p>
+									<div class="content-popular__bottom">
+										<a href="#" class="btn border-orange btn-small">В корзину</a>
+										<b>.-50₽</b>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="content-popular__col">
+							<div class="content-popular__item">
+								<div style="background-image: url(img/popular/12.png);" class="content-popular__img"></div>
+								<div class="content-popular__text">
+									<span>добавки</span>
+									<h3>«Грибной»</h3>
+									<div class="price-popular">
+										<b>50 гр</b>
+									</div>
+									<p>Основа для соуса, чесночный соус, майонез, паприка, сливки, мендальные орехи, сливочный сыр, соль</p>
+									<div class="content-popular__bottom">
+										<a href="#" class="btn border-orange btn-small">В корзину</a>
+										<b>.-50₽</b>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+				</div>
+			</div>
+
+			<div class="delivery-bottom">
+			<div class="shell">
+				<h2 class="title-icon">
+					<img src="img/title-icon/vertolet.png" alt="">
+					<span>Доставка в Ишимбае:</span>
+				</h2>
+				<p>
+					Ресторан доставки роллов и пиццы «Японика Сан Ишимбай» осуществляет доставку заказов по всему Ишимбаю БЕСПЛАТНО при заказе от 500₽. В отдаленные районы стоимость доставки узнайте у нашего менеджера по телефону +7 (927) 358-35-98. К оплате принимается наличный и безналичный рассчет.
+				</p>
+				<div class="callback-form">
+					<div class="list__callback-form">
+						<img src="img/list/1.png" alt="">
+					</div>
+					<div class="img__callback-man">
+						<img src="img/delivery-man.png" alt="">
+					</div>
+					<form>
+						<h3>Заказать обратный звонок</h3>
+						<div class="fieldset">
+							<input type="text" placeholder="Имя">
+						</div>
+						<div class="fieldset">
+							<input type="tel" placeholder="Телефон">
+						</div>
+						<div class="bottom-form">
+							<input type="submit" class="btn btn-green" value="Заказать звонок">
+							<p>Заказывая звонок вы автоматически соглашаетесь с правилами обработки персональных данных и принимаете политику конфиденциальности</p>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+		<footer>
+			<div class="shell">
+				<div class="content-footer">
+					<div class="content-header">
+						<div class="content-header__left">
+							
+							<div class="logo">
+								<a href="/">
+									<img src="img/logo-f.jpg" width="128" alt="">
+								</a>
+							</div>
+							<div class="text-logo">
+								<a href="tel:+7(927)358-35-98">+7 (927) 358-35-98</a>
+								<h2>Доставка еды в&nbsp;Ишимбае</h2>
+								<p>Ежедневно с <span>11:00</span> до <span>23:00</span> <br>Ишимбай, Молодёжная 4</p>
+							</div>
+						</div>
+						<div class="content-header__right">
+							<nav class="main-nav">
+								<ul>
+									<li><a href="#">СЕТЫ</a></li>          
+									<li><a class="active" href="#">ПИЦЦА</a></li>          
+									<li><a href="#">РОЛЛЫ</a></li>          
+									<li><a href="#">ЗАКУСКИ</a></li>          
+									<li><a href="#">ДЕСЕРТЫ</a></li>          
+									<li><a href="#">ДЕТЯМ</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="footer-nav">
+							<div class="city">
+								<div class="city-label">Ваш город:</div>
+								<div class="city-select">
+									<p>Ишимбай</p>
+									<div class="city-select__list">
+										<ul>
+											<li><a href="#">Уфа</a></li>
+											<li><a href="#">Стерлитамак</a></li>
+											<li><a href="#">Салават</a></li>
+											<li><a href="#">Мелеуз</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<nav class="foot-menu">
+								<ul>
+									<li><a href="#">О нас</a></li>        
+									<li><a href="#">Доставка и оплата</a></li>        
+									<li><a href="#">Акции</a></li>        
+									<li><a href="#">Вакансии</a></li>        
+									<li><a href="#">Контакты</a></li>         
+									<li><a href="#">Политика обработки персональных данных</a></li>        
+									<li><a href="#">Карта сайта</a></li>
+									<li><a href="#">Юридическое лицо</a></li>        
+									<li><a href="#">Договор публичной оферты</a></li>        
+									<li><a href="#">Лицензионное соглашение</a></li>
+								</ul>
+							</nav>
+					</div>
+					<div class="bottom-footer">
+						<p>
+							Доставка японской кухни в городе Ишимбай «Японика Сан Ишимбай». Все права защищены (с) 2019
+						</p>
+						<div class="soc">
+							<ul>
+								<li><a class="instagram" href="#"></a></li>
+								<li><a class="vk" href="#"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="xs-nav">
+			<div class="top-menu">
+				<ul>
+					<li><a href="#">СЕТЫ</a></li>          
+					<li><a class="active" href="#">ПИЦЦА</a></li>          
+					<li><a href="#">РОЛЛЫ</a></li>          
+					<li><a href="#">ЗАКУСКИ</a></li>          
+					<li><a href="#">ДЕСЕРТЫ</a></li>          
+					<li><a href="#">ДЕТЯМ</a></li>
+				</ul>
+			</div>
+			<div class="bottom-menu">
+				<ul>
+					<li><a href="#">О нас</a></li>        
+					<li><a href="#">Доставка и оплата</a></li>        
+					<li><a href="#">Акции</a></li>        
+					<li><a href="#">Вакансии</a></li>        
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+
+
+
+
+	</div><!-- /.site -->
+
+
+	<script src="libs/jquery/jquery.min.js"></script>
+	<script src="//unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/isotope/isotope.pkgd.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.min.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>

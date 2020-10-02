@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+
+	<title>Корзина</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- 	
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png"> 
+	-->
+
+	<meta name="theme-color" content="#000">
+
+	<link rel="stylesheet" href="libs/normalize_css/normalize.css">
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.default.css">
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/build.css">
+
+</head>
+
+<body class="cart-page">
+
+	<div class="site">
+		
+		<header>
+			<div class="top-line">
+				<div class="shell">
+					<div class="top-line__content">
+						<div class="burger">меню</div>
+						<div class="logo">
+							<a href="/">
+								<img src="img/logo-m.jpg" width="43" alt="">
+							</a>
+						</div>
+						<div class="city">
+							<div class="city-label">Ваш город:</div>
+							<div class="city-select">
+								<p>Ишимбай</p>
+								<div class="city-select__list">
+									<ul>
+										<li><a href="#">Уфа</a></li>
+										<li><a href="#">Стерлитамак</a></li>
+										<li><a href="#">Салават</a></li>
+										<li><a href="#">Мелеуз</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<nav class="nav-top">
+							<ul>
+								<li><a href="#">О нас</a></li>        
+								<li><a href="#">Доставка и оплата</a></li>        
+								<li><a href="#">Акции</a></li>        
+								<li><a href="#">Вакансии</a></li>        
+								<li><a href="#">Контакты</a></li>
+							</ul>
+						</nav>
+						<div class="soc">
+							<ul>
+								<li><a class="instagram" href="#"></a></li>
+								<li><a class="vk" href="#"></a></li>
+							</ul>
+						</div>
+						<div class="top-line__btn">
+							<a href="#" class="link-call">Заказать звонок</a>
+							<div class="shop-card no-empty">
+								<a href="#">
+									<p>3 товара</p>
+									<span>на 3 700₽</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="top-line__bottom">
+				<div class="shell">
+					<div class="content-header">
+							<div class="text-logo">
+								<div class="city">
+									<div class="city-select">
+										<p>Ишимбай</p>
+										<div class="city-select__list">
+											<ul>
+												<li><a href="#">Уфа</a></li>
+												<li><a href="#">Стерлитамак</a></li>
+												<li><a href="#">Салават</a></li>
+												<li><a href="#">Мелеуз</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<a href="tel:+7(927)358-35-98">+7 (927) 358-35-98</a>
+							
+							</div>
+						</div>
+					</div>
+				</div>
+			
+
+		</header>
+		
+		<div class="shell">
+			<div class="content-white">
+				
+						<div class="breadcrumbs">
+							<ul>
+								<li><a href="#">Доставка еды в Ишимбае</a></li>
+								<li><a href="#">О нас</a></li>
+							</ul>
+						</div>		
+
+						<h1 class="h1">Оформление заказа <span>в Ишимбае</span></h1>
+
+	
+			
+							<div class="form-data">
+								<h3>Укажите контактные данные</h3>
+								<div class="fieldset">
+									<input type="text" placeholder="Укажите имя">
+								</div>
+								<div class="fieldset">
+									<input type="text" placeholder="Номер телефона">
+								</div>
+								<div class="fieldset">
+									<input type="text" placeholder="Адрес доставки">
+								</div>
+							</div>
+							
+							<div class="item-cart">
+								<div class="close-item"></div>
+								<div class="content-popular__item">
+									<div class="item-cart__content">
+										<div style="background-image: url(img/popular/1.png);" class="content-popular__img"></div>
+										<div class="content-popular__text">
+											<span>пицца</span>
+											<h3>«Мясная»</h3>
+											<div class="price-popular">
+												<b>30 см</b>
+												<span>610 гр</span>
+											</div>
+											<p>Бекон, маринованные огурцы, сервелат, сыр Моцарелла, сыр Чеддер, соус "Маджорио", соус «Барбекю», соус Томатный</p>
+											<div class="content-popular__bottom">
+												<b>.-360₽</b>
+											</div>
+										</div>
+									</div>
+									<div class="controll__cart">
+										<div class="close-item"></div>
+										<div class="count-el__cart">
+											<div class="count-el-minus">-</div>
+											<input type="number" min="0" value="1">
+											<div class="input-buffer"></div>
+											<div class="count-el-plus">+</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="item-cart">
+								<div class="close-item"></div>
+								<div class="content-popular__item">
+									<div class="item-cart__content">
+										<div style="background-image: url(img/popular/6.png);" class="content-popular__img"></div>
+										<div class="content-popular__text">
+											<span>сет</span>
+											<h3>«Победитель»</h3>
+											<div class="price-popular">
+												<b>80 шт</b>
+												<span>1200 гр</span>
+											</div>
+											<p>Бекон, маринованные огурцы, сервелат, сыр Моцарелла, сыр Чеддер, соус "Маджорио", соус «Барбекю», соус Томатный</p>
+											<div class="content-popular__bottom">
+												<b>.-2 999₽</b>
+											</div>
+										</div>
+									</div>
+									<div class="controll__cart">
+										<div class="close-item"></div>
+										<div class="count-el__cart">
+											<div class="count-el-minus">-</div>
+											<input type="number" min="0" value="2">
+											<div class="input-buffer"></div>
+											<div class="count-el-plus">+</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="count-order">
+
+								<div class="count-order__left">
+									<div class="total-weight">
+										<span>Общий вес:</span>
+										<b>3 262 гр.</b>
+									</div>
+									<div class="promo-code">
+										<span>Промокод:</span>
+										<form>
+											<input type="text" placeholder="Промокод">
+											<input type="submit" value="отправить">
+										</form>
+									</div>
+								</div>
+								<div class="count-order__right">
+									<span>Сумма заказа</span>
+									<b>.-3700₽</b>
+								</div>
+							</div>
+
+							<div class="count-person">
+								<div class="img__perec-blur">
+									<img src="img/list/perec-blur.png" alt="">
+								</div>
+								<div class="img__list-blur">
+									<img src="img/list/list-blur.png" alt="">
+								</div>
+								<h3>Количество персон</h3>
+								<div class="count-person__content">
+									<div class="count-el__cart">
+										<div class="count-el-minus">-</div>
+										<input type="number" min="0" value="4">
+										<div class="input-buffer"></div>
+										<div class="count-el-plus">+</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="additional-order">
+								<h3>Добавки</h3>
+								<div class="additional-order__content">
+									<div class="additional-order__item">
+										<div class="additional-order__wrap">
+											<div style="background-image: url(img/popular/vasabi.png);" class="additional-order__img"></div>
+											<div class="additional-order__text">
+												<p>Васаби</p>
+												<div class="count-el__cart input-small">
+													<div class="count-el-minus">-</div>
+													<input type="number" min="0" value="4">
+													<div class="input-buffer"></div>
+													<div class="count-el-plus">+</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="additional-order__item">
+										<div class="additional-order__wrap">
+											<div style="background-image: url(img/popular/imbir.png);" class="additional-order__img"></div>
+											<div class="additional-order__text">
+												<p>Имбирь</p>
+												<div class="count-el__cart input-small">
+													<div class="count-el-minus">-</div>
+													<input type="number" min="0" value="4">
+													<div class="input-buffer"></div>
+													<div class="count-el-plus">+</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="additional-order__item">
+										<div class="additional-order__wrap">
+											<div style="background-image: url(img/popular/sous.png);" class="additional-order__img"></div>
+											<div class="additional-order__text">
+												<p>Соевый соус</p>
+												<div class="count-el__cart input-small">
+													<div class="count-el-minus">-</div>
+													<input type="number" min="0" value="4">
+													<div class="input-buffer"></div>
+													<div class="count-el-plus">+</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="additional-order__item">
+										<div class="additional-order__wrap">
+											<div style="background-image: url(img/popular/9.png);" class="additional-order__img"></div>
+											<div class="additional-order__text">
+												<p>Сырный соус</p>
+												<div class="count-el__cart input-small">
+													<div class="count-el-minus">-</div>
+													<input type="number" min="0" value="4">
+													<div class="input-buffer"></div>
+													<div class="count-el-plus">+</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="comment-order">
+								<h3>Комментарий к заказу</h3>
+								<textarea placeholder="Укажите ваши пожалания"></textarea>
+							</div>
+							
+							<div class="pay-delivery">
+								<h3>Способ доставки</h3>
+								<div class="pay-delivery__content">
+									<div class="pay-delivery__item">
+										<label class="radio-custom">
+											<input type="radio" name="delivery" checked class="input-radio">
+											<span class="cust-radio"></span>
+											<span class="cust-label">Курьером</span>
+										</label>
+									</div>
+									<div class="pay-delivery__item">
+										<label class="radio-custom">
+											<input type="radio" name="delivery" class="input-radio">
+											<span class="cust-radio"></span>
+											<span class="cust-label">Самовывоз</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="pay-delivery">
+								<h3>Способ оплаты</h3>
+								<div class="pay-delivery__content">
+									<div class="pay-delivery__item">
+										<label class="radio-custom">
+											<input type="radio" name="pay" checked class="input-radio">
+											<span class="cust-radio"></span>
+											<span class="cust-label">Наличными курьеру</span>
+										</label>
+									</div>
+									<div class="pay-delivery__item">
+										<label class="radio-custom">
+											<input type="radio" name="pay" class="input-radio">
+											<span class="cust-radio"></span>
+											<span class="cust-label">Оплата картой</span>
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="end-order">
+								<input type="submit" value="Оформить заказ">
+								<p>Оформляя заказ вы подтверждаете свое согласие на обработку персональных данных</p>
+							</div>
+
+
+
+			</div>
+		</div>
+
+
+
+		
+
+		<footer>
+			<div class="shell">
+				<div class="content-footer">
+					<div class="content-header">
+						<div class="content-header__left">
+							
+							<div class="logo">
+								<a href="/">
+									<img src="img/logo-f.jpg" width="128" alt="">
+								</a>
+							</div>
+							<div class="text-logo">
+								<a href="tel:+7(927)358-35-98">+7 (927) 358-35-98</a>
+								<h2>Доставка еды в&nbsp;Ишимбае</h2>
+								<p>Ежедневно с <span>11:00</span> до <span>23:00</span> <br>Ишимбай, Молодёжная 4</p>
+							</div>
+						</div>
+						<div class="content-header__right">
+							<nav class="main-nav">
+								<ul>
+									<li><a href="#">СЕТЫ</a></li>          
+									<li><a href="#">ПИЦЦА</a></li>          
+									<li><a href="#">РОЛЛЫ</a></li>          
+									<li><a href="#">ЗАКУСКИ</a></li>          
+									<li><a href="#">ДЕСЕРТЫ</a></li>          
+									<li><a href="#">ДЕТЯМ</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+					<div class="footer-nav">
+							<div class="city">
+								<div class="city-label">Ваш город:</div>
+								<div class="city-select">
+									<p>Ишимбай</p>
+									<div class="city-select__list">
+										<ul>
+											<li><a href="#">Уфа</a></li>
+											<li><a href="#">Стерлитамак</a></li>
+											<li><a href="#">Салават</a></li>
+											<li><a href="#">Мелеуз</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<nav class="foot-menu">
+								<ul>
+									<li><a href="#">О нас</a></li>        
+									<li><a href="#">Доставка и оплата</a></li>        
+									<li><a href="#">Акции</a></li>        
+									<li><a href="#">Вакансии</a></li>        
+									<li><a href="#">Контакты</a></li>         
+									<li><a href="#">Политика обработки персональных данных</a></li>        
+									<li><a href="#">Карта сайта</a></li>
+									<li><a href="#">Юридическое лицо</a></li>        
+									<li><a href="#">Договор публичной оферты</a></li>        
+									<li><a href="#">Лицензионное соглашение</a></li>
+								</ul>
+							</nav>
+					</div>
+					<div class="bottom-footer">
+						<p>
+							Доставка японской кухни в городе Ишимбай «Японика Сан Ишимбай». Все права защищены (с) 2019
+						</p>
+						<div class="soc">
+							<ul>
+								<li><a class="instagram" href="#"></a></li>
+								<li><a class="vk" href="#"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="xs-nav">
+			<div class="top-menu">
+				<ul>
+					<li><a href="#">СЕТЫ</a></li>          
+					<li><a href="#">ПИЦЦА</a></li>          
+					<li><a href="#">РОЛЛЫ</a></li>          
+					<li><a href="#">ЗАКУСКИ</a></li>          
+					<li><a href="#">ДЕСЕРТЫ</a></li>          
+					<li><a href="#">ДЕТЯМ</a></li>
+				</ul>
+			</div>
+			<div class="bottom-menu">
+				<ul>
+					<li><a href="#">О нас</a></li>        
+					<li><a href="#">Доставка и оплата</a></li>        
+					<li><a href="#">Акции</a></li>        
+					<li><a href="#">Вакансии</a></li>        
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+
+
+
+
+	</div><!-- /.site -->
+
+
+	<script src="libs/jquery/jquery.min.js"></script>
+	<script src="//unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+	<script src="libs/isotope/isotope.pkgd.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/fancybox/jquery.fancybox.min.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>
